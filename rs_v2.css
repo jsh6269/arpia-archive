@@ -1,0 +1,371 @@
+body {
+  font: 11px 돋움;
+}
+
+#tutl {
+  height: 79px;
+  margin: 0px;
+  padding: 8px 0px 0px 0px;
+  width: 890px;
+  text-align: right;
+}
+
+#tutl h1 {
+  margin: 9px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+}
+
+#tutl h1 ul li {
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 0px 7px;
+  text-align: center;
+}
+
+#tutl h2 {
+  font: 11px 돋움;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+#tutl h2 a {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+#tutl h2 img {
+  vertical-align: middle;
+  margin: 0px 3px 2px 2px;
+}
+
+#tutl h2 ul {
+  list-style-type: none;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+}
+
+#tutl h2 ul li {
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 0px 7px;
+  text-align: center;
+}
+
+#tutl h2 ul li a {
+  display: block;
+  font-size: 12px;
+}
+
+#tutl h2 ul li img {
+  display: block;
+  margin: 0px 0px 3px 0px;
+  vertical-align: top;
+}
+
+#tutl h2 ul li.m1 {
+  padding: 0px !important;
+}
+
+#gnb {
+  margin: 0px 0px 0px 235px;
+  padding: 0px;
+  width: 655px;
+}
+
+#gnb img {
+  vertical-align: top;
+}
+
+#gnb .nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#gnb .nav li {
+  float: left;
+}
+
+#gnb .sb1 {
+  display: none;
+  clear: both;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 446px 0px 0px;
+  float: right;
+}
+
+#gnb .sb1 li {
+  float: left;
+}
+
+#gnb .sb2 {
+  display: none;
+  clear: both;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 184px 0px 0px;
+  float: right;
+}
+
+#gnb .sb2 li {
+  float: left;
+}
+
+#gnb .sb3 {
+  display: none;
+  clear: both;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 51px 0px 0px;
+  float: right;
+}
+
+#gnb .sb3 li {
+  float: left;
+}
+
+#gnb .sb4 {
+  display: none;
+  clear: both;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+#gnb .sb4 li {
+  float: left;
+}
+
+/* layout */
+#wrap {
+  background: #fdf6d6 url(main_img/k_body.jpg) no-repeat center 0;
+  margin: 0px auto;
+  position: relative;
+  text-align: left;
+  width: 931px;
+  padding-top: 87px;
+}
+
+#dh {
+  height: 130px;
+  margin-left: 20px;
+}
+
+#db {
+  margin: 0px 0px 0px 20px;
+  padding: 0;
+}
+
+#side {
+  position: absolute;
+  width: 226px;
+}
+
+#logi {
+  background: url(images/k_login.gif) no-repeat 0 0;
+  height: 155px;
+  margin-top: 29px;
+  padding-left: 30px;
+}
+
+.lid {
+  color: #454545;
+  font: bold 11px 돋움;
+  margin: 0px 0px 0px 0px;
+  padding-top: 24px;
+}
+
+#logi ul {
+  margin: 13px 0px 0px 0px;
+  padding: 0px;
+}
+
+#logi ul li {
+  color: #469506;
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 4px 0px;
+  width: 90px;
+}
+
+.lout {
+  margin: 20px 0px 0px 50px;
+}
+
+#bsta {
+  margin-left: 8px;
+}
+
+#banr {
+  background: url(images/k_banner.gif) no-repeat 0 0;
+  height: 365px;
+  margin-top: 8px;
+  padding: 10px 0px 0px 14px;
+}
+
+#banr ul {
+  margin: 10px 0px 0px -4px;
+  padding: 0px;
+}
+
+#banr ul li {
+  margin: 0px;
+  padding: 6px 0px 0px 0px;
+}
+
+.banb {
+  background: url(images/banner01.gif) no-repeat 0 0;
+  height: 118px;
+}
+
+.banb .b01 {
+  float: left;
+  margin: 10px 0px 0px 2px;
+}
+
+.banb .b02 {
+  float: left;
+  margin: 10px 0px 0px 20px;
+}
+
+.banb .b03 {
+  float: left;
+  margin: 19px 0px 0px 2px;
+}
+
+.banb .b04 {
+  float: left;
+  margin: 19px 0px 0px 20px;
+}
+
+#lnbx {
+  background: url("images/k_login.gif") 3px top no-repeat;
+  height: 154px;
+  margin: 29px 0px 0px 0px;
+  padding: 0px;
+  width: 233px;
+}
+
+#lnbx dl,
+#lnbx dl dt {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+#lnbx dt {
+  height: 110px;
+}
+
+#lnbx dt strong {
+  color: #306c00;
+  font-size: 11px;
+  font-family: dotum;
+  float: left;
+  margin: 0px;
+  padding: 25px 0px 0px 42px;
+  text-align: left;
+}
+
+#lnbx dt input.lgi {
+  border: none;
+  margin: 7px 43px 0px 0px;
+  padding: 0px;
+}
+
+#lnbx dl dd {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/*common*/
+body {
+  background: #fdf6d6 url(images/info/body_bg.jpg) repeat-x 0 34px;
+  background-position: 0 34px !important;
+  color: #666;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.cboth {
+  clear: both;
+  height: 0px;
+  font: 0px/0px sans-serif;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+input {
+  vertical-align: middle;
+}
+
+input.txt {
+  border: 1px solid #c3c1c4;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a:link,
+a:visited {
+  color: #767676;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #767676;
+  text-decoration: underline;
+}
+
+h2.sub {
+  background: url(http://l.yimg.com/bn/mcamp/_web_/images/info/k_info.gif)
+    no-repeat 0 0;
+  font-size: 12px;
+  height: 30px;
+  margin: 0px 0px 30px 0px;
+  padding: 39px 0px 0px 64px;
+}
+
+h3 {
+  background: url(http://l.yimg.com/bn/mcamp/_web_/images/info/k_h3.gif)
+    no-repeat 0 0;
+  font-size: 12px;
+  height: 24px;
+  margin: 0px 0px 20px 18px;
+  padding: 0px 0px 0px 24px;
+}
+
+h3 img {
+  vertical-align: top;
+}
+
+h4 {
+  background: url(http://l.yimg.com/bn/mcamp/_web_/images/info/bul.gif)
+    no-repeat 0 3px;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px 0px 8px 0px;
+  padding: 0px 0px 0px 8px;
+}
+
+#df {
+  background: url(images/k_conbtm.gif) no-repeat 233px 0;
+  color: #ad7b40;
+  height: 60px;
+  margin-left: 20px;
+  padding: 40px 0px 0px 310px;
+}
